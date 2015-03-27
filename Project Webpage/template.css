@@ -1,0 +1,38 @@
+body{background-image:url(back.jpg);}
+
+h1{color:#328FCE;text-align:center;background-color:#FFDC90;padding:20px;
+	border-bottom-color:red;border-bottom-width:6px;border-bottom-style:double;
+    border-top-color:green;border-top-width:6px;border-top-style:double;
+	animation : animate 5s; 
+	animation-iteration-count : infinite;
+}
+	   
+#list li{
+	display: inline;
+    color: rgb(54,39,253);
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	background-color: rgb(254,250,95);
+}
+
+ul {
+    width: 100%;
+	height: 30px;
+}
+
+li {
+    float: left;
+    width: 20%;  
+    text-align:center;
+}
+
+@keyframes animate{
+	0%{background-color :brown; color : yellow}
+	50%{background-color :#FFDC90; color : #328FCE}
+	100%{background-color :brown; color : yellow}
+}
+	 
